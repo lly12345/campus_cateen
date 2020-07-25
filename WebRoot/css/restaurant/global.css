@@ -1,0 +1,40 @@
+/**
+ * 所有的CSS配置文件，包含了文件的引入顺序，目标CSS文件等等。
+ *
+ * @author xukai@meituan.com
+ * @date 2014-01-28 星期二
+ */
+
+/* 历史原因遗留的样式文件库 */
+
+/* @import url("basic/old/main-1.2.1.css");
+@import url("basic/old/magnific-popup.css");
+@import url("basic/old/paginate_style.css"); */
+
+/* 前端基本样式组件库  */
+
+@import url("basic/reset.css");
+@import url("basic/color.css");
+@import url("basic/css3.css");
+@import url("basic/icon.css");
+@import url("basic/common.css");
+/* 各个不同模块的样式文件 */
+
+
+
+
+
+
+/* 重要: 由于历史遗留原因，需要手动添加版本号, 请全局搜索版本号并替换 */
+
+
+/* @import url("module/triffle.css"); */
+
+@import url("basic/module/banner.css");
+
+
+@import url("basic/module/cart.css");
+
+/*头顶黄条*/
+
+

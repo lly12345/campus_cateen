@@ -1,0 +1,49 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type:none;
+}
+.nav li {
+    float: left;
+    margin: 0 10px;
+    display: block;
+    line-height:40px; 
+    
+   
+}
+.nav {
+    float: right;
+    margin-right: 320px;
+    margin-top: 25px;
+}
+
+#header{
+    
+    height:77px;
+    background:rgba(255,255,255,1);
+}
+.nav li a{
+    text-decoration: none;    
+    color: #ABB3C0;
+    width:80px;
+    height:24px;
+    font-size:18px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(171,179,192,1);
+    line-height:24px;
+    
+}
+a:hover{
+    color: #FFDD55;
+
+}
+.icon{
+   display: inline-block;
+   margin-left: 320px;
+}
+

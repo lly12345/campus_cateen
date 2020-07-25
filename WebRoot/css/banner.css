@@ -1,0 +1,65 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    list-style-type:none;
+}
+.nav li {
+    float: left;
+    margin: 0 10px;
+    display: block;
+    line-height:40px; 
+    
+   
+}
+.nav {
+    float: right;
+    
+    margin-top: 25px;
+}
+
+#header-parent{
+	
+	width: 100%;
+	background: white;
+	height: 77px;
+	 background:rgba(255,255,255,1);
+}
+
+#header{
+    width:1000px;
+    height:77px;
+    margin:0 auto;
+   
+}
+.nav li a{
+    text-decoration: none;    
+    color: #ABB3C0;
+    width:80px;
+    height:24px;
+    font-size:18px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(171,179,192,1);
+    line-height:24px;
+    
+}
+.nav li a:hover{
+    color: #FFDD55;
+
+}
+
+.nav li a:active{
+    color: #FFDD55;
+
+}
+
+#header .icon{
+   float: left;
+   
+}
+
